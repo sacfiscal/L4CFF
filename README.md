@@ -4,7 +4,7 @@ Este projeto demonstra como consumir a API de CClassTrib do projeto **Conformida
 
 ## 📋 Sobre o Projeto
 
-O L4CFF é um exemplo prático de integração com a API de classificação tributária da Reforma Tributária, implementado em Delphi utilizando certificado digital A1 para autenticação.
+O L4CFF é um exemplo prático de integração com a API de classificação tributária da Reforma Tributária, implementado em Lazarus Free Pascal utilizando certificado digital A1 para autenticação.
 
 Este projeto é fornecido pelo **SACFiscal**, para auxiliar na adequação à Reforma Tributária brasileira.
 
