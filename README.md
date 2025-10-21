@@ -1,4 +1,4 @@
-# L4CFF - Exemplo de Consumo da API CClassTrib (Conformidade Fácil)
+# L4CFF - Exemplo em Lazarus de Consumo da API CClassTrib (Conformidade Fácil)
 
 Este projeto demonstra como consumir a API de CClassTrib do projeto **Conformidade Fácil** da Reforma Tributária utilizando Delphi.
 
