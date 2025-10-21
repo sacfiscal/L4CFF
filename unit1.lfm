@@ -1,0 +1,66 @@
+object Form1: TForm1
+  Left = 505
+  Height = 478
+  Top = 296
+  Width = 556
+  Caption = 'SACfiscal - Exemplo de consumo API Conformidade Fácil'
+  ClientHeight = 478
+  ClientWidth = 556
+  LCLVersion = '4.2.0.0'
+  OnCreate = FormCreate
+  object Label1: TLabel
+    Left = 200
+    Height = 15
+    Top = 8
+    Width = 143
+    Caption = 'WWW.SACFISCAL.COM.BR'
+  end
+  object Edit1: TEdit
+    Left = 24
+    Height = 23
+    Top = 32
+    Width = 512
+    TabOrder = 0
+    Text = 'https://cff.svrs.rs.gov.br/api/v1/consultas/classTrib'
+  end
+  object edtPath: TEdit
+    Left = 24
+    Height = 23
+    Top = 80
+    Width = 512
+    TabOrder = 1
+  end
+  object edtSenha: TEdit
+    Left = 24
+    Height = 23
+    Top = 128
+    Width = 320
+    TabOrder = 2
+  end
+  object Button1: TButton
+    Left = 360
+    Height = 25
+    Top = 128
+    Width = 75
+    Caption = 'Consultar'
+    TabOrder = 3
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 448
+    Height = 25
+    Top = 128
+    Width = 75
+    Caption = 'Limpar'
+    TabOrder = 4
+    OnClick = Button2Click
+  end
+  object Memo1: TMemo
+    Left = 24
+    Height = 274
+    Top = 184
+    Width = 512
+    ScrollBars = ssAutoBoth
+    TabOrder = 5
+  end
+end
